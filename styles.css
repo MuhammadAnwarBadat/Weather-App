@@ -1,12 +1,10 @@
-/* RESET STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-    --bg_main: #0a1f44;
+    --bg_main: #1d3f66;
     --text_light: #fff;
-    --text_med: #53627c;
+    --text_med: #000;
     --text_dark: #1e2432;
-    --red: #ff1e42;
-    --darkred: #c3112d;
+    --red: #fc4300;
+    --darkred: #ec082ae5;
     --orange: #ff8c00;
   }
   
@@ -49,7 +47,7 @@
   }
   
   body {
-    font: 1rem/1.3 "Roboto", sans-serif;
+    font: 1rem/1.3 "Product Sans", sans-serif;
     background: var(--bg_main);
     color: var(--text_dark);
     padding: 70px;
@@ -180,11 +178,8 @@
     height: 100px;
   }
   
-  
-  /* FOOTER
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .page-footer {
-    text-align: right;
+    text-align: center;
     font-size: 1rem;
     color: var(--text_light);
     margin-top: 40px;
@@ -194,9 +189,6 @@
     color: var(--red);
   }
   
-  
-  /* MQ
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
   @media screen and (max-width: 1000px) {
     body {
       padding: 30px;
@@ -251,24 +243,4 @@
     .ajax-section .cities {
       grid-template-columns: repeat(1, 1fr);
     }
-  }
-  
-  
-  /* API Key banner
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .api {
-    background: #fffbbc;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-  }
-  
-  .api a {
-    text-decoration: underline;
-  }
-  
-  .api a:hover {
-    text-decoration: none;
   }
